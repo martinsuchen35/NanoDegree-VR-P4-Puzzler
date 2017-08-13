@@ -21,4 +21,5 @@ public class GameLogic : MonoBehaviour {
 		startUI.SetActive (!startUI.activeSelf);
 		restartUI.SetActive (!restartUI.activeSelf);
 	}
+
 }
