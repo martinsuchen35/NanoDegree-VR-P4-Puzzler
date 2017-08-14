@@ -20,6 +20,7 @@ public class GameLogic : MonoBehaviour {
     private bool playMode = false;
 
     public GameObject failAudioHolder;
+    public GameObject succeedAudioHolder;
 
     // Use this for initialization
     void Start()
@@ -174,6 +175,9 @@ public class GameLogic : MonoBehaviour {
 
     public void puzzleSuccess()
     { //Do this when the player gets it right
+
+        succeedAudioHolder.GetComponent<GvrAudioSource>().Play();
+
         iTween.MoveTo(player,
             iTween.Hash(
                 "position", restartPoint.transform.position,
