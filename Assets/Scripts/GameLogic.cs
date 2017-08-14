@@ -17,7 +17,7 @@ public class GameLogic : MonoBehaviour {
     public bool playerWon = false;
 
     private int currentSolveIndex = 0; //Temporary variable for storing the index that the player is solving for in the pattern.
-
+    private bool playMode = false;
 
     // Use this for initialization
     void Start()
@@ -34,6 +34,10 @@ public class GameLogic : MonoBehaviour {
 
     }
 
+    public bool isPlayMode()
+    {
+        return playMode;
+    }
 
     public void playerSelection(GameObject sphere)
     {
@@ -109,7 +113,9 @@ public class GameLogic : MonoBehaviour {
                 currentlyDisplayingPattern = false; //Let us know were done displaying the pattern
                 currentDisplayIndex = 0;
                 CancelInvoke(); //Stop the pattern display.  May be better to use coroutines for this but oh well
+
                 eventSystem.SetActive(true); //Enable gaze input when we aren't displaying the pattern.
+                playMode = true;
             }
         }
     }

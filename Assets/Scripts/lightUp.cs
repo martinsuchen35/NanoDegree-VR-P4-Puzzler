@@ -21,15 +21,19 @@ public class lightUp : MonoBehaviour {
 	}
 
 
-	public void gazeLightUp() {
-		this.GetComponent<MeshRenderer>().material = lightUpMaterial; //Assign the hover material
-		//this.GetComponentInChildren<ParticleSystem>().enableEmission = true; //Turn on particle emmission
-		this.GetComponent<GvrAudioSource>().Play();
+	public void gazeLightUp(GameLogic logic) {
+        if (logic.isPlayMode())
+        {
+            this.GetComponent<MeshRenderer>().material = lightUpMaterial; //Assign the hover material
+            //this.GetComponentInChildren<ParticleSystem>().enableEmission = true; //Turn on particle emmission
 
-		//gameLogic.GetComponent<gameLogic>().playerSelection(this.gameObject);
+            //this.GetComponent<GvrAudioSource>().Play();
+        }
+
+        //gameLogic.GetComponent<gameLogic>().playerSelection(this.gameObject);
 
 
-	}
+    }
 	public void playerSelection(GameLogic logic) {
         Debug.Log("lightUp.playerSelection(GameLogic)");
 

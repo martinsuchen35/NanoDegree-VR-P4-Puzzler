@@ -387,7 +387,7 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
@@ -473,17 +473,17 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: aestheticReset
+      value: gazeLightUp
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: GameLogic, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
@@ -550,7 +550,17 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].eventID
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 309097728}
+    - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114136805137304530, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
@@ -830,7 +840,7 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
@@ -916,17 +926,17 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: aestheticReset
+      value: gazeLightUp
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: GameLogic, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
@@ -993,7 +1003,17 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].eventID
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 309097728}
+    - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114136805137304530, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
@@ -4165,7 +4185,7 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
@@ -4226,17 +4246,17 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: aestheticReset
+      value: gazeLightUp
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: GameLogic, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
@@ -4313,7 +4333,17 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].eventID
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 309097728}
+    - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
@@ -5435,7 +5465,7 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
@@ -5521,17 +5551,17 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: aestheticReset
+      value: gazeLightUp
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: GameLogic, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
@@ -5598,7 +5628,17 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].eventID
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 309097728}
+    - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114136805137304530, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
@@ -5873,7 +5913,7 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
@@ -5964,17 +6004,17 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: aestheticReset
+      value: gazeLightUp
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: GameLogic, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
@@ -6041,7 +6081,17 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].eventID
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 309097728}
+    - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
