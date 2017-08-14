@@ -459,7 +459,7 @@ Prefab:
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1314565177}
+      objectReference: {fileID: 1314565175}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -540,13 +540,13 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: GameLogic, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1314565174}
+      objectReference: {fileID: 309097728}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].eventID
@@ -902,7 +902,7 @@ Prefab:
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1817645349}
+      objectReference: {fileID: 1817645347}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -983,13 +983,13 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: GameLogic, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1817645346}
+      objectReference: {fileID: 309097728}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].eventID
@@ -2072,29 +2072,6 @@ MonoBehaviour:
   sourceMinDistance: 0
   hrtfEnabled: 1
   audioSource: {fileID: 0}
---- !u!114 &491665682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 491665680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 167ff67f7a8054e3f895549f6611b2b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1354304479}
-  eventSystem: {fileID: 480908257}
-  startUI: {fileID: 428735303}
-  restartUI: {fileID: 151839027}
-  startPoint: {fileID: 1578405884}
-  playPoint: {fileID: 315612004}
-  restartPoint: {fileID: 1128106547}
-  puzzleSpheres: []
-  puzzleLength: 5
-  puzzleSpeed: 1
-  currentlyDisplayingPattern: 1
-  playerWon: 0
 --- !u!1 &529097290
 GameObject:
   m_ObjectHideFlags: 0
@@ -4312,7 +4289,7 @@ Prefab:
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1165394906}
+      objectReference: {fileID: 1165394909}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -4326,13 +4303,13 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: GameLogic, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1165394904}
+      objectReference: {fileID: 309097728}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].eventID
@@ -4452,29 +4429,6 @@ MonoBehaviour:
   sourceMinDistance: 0
   hrtfEnabled: 1
   audioSource: {fileID: 0}
---- !u!114 &1165394906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1165394904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 167ff67f7a8054e3f895549f6611b2b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1354304479}
-  eventSystem: {fileID: 480908257}
-  startUI: {fileID: 428735303}
-  restartUI: {fileID: 151839027}
-  startPoint: {fileID: 1578405884}
-  playPoint: {fileID: 315612004}
-  restartPoint: {fileID: 1128106547}
-  puzzleSpheres: []
-  puzzleLength: 5
-  puzzleSpeed: 1
-  currentlyDisplayingPattern: 1
-  playerWon: 0
 --- !u!114 &1165394909 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114136805137304530, guid: 1f1d3383012ab4f1cb31dcc37907601a,
@@ -4857,7 +4811,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lightUpMaterial: {fileID: 2100000, guid: 03abd3809ff8b4cd18d0c359da767966, type: 2}
-  gameLogic: {fileID: 309097727}
 --- !u!114 &1314565176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4887,29 +4840,6 @@ MonoBehaviour:
   sourceMinDistance: 0
   hrtfEnabled: 1
   audioSource: {fileID: 0}
---- !u!114 &1314565177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1314565174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 167ff67f7a8054e3f895549f6611b2b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1354304479}
-  eventSystem: {fileID: 480908257}
-  startUI: {fileID: 428735303}
-  restartUI: {fileID: 151839027}
-  startPoint: {fileID: 1578405884}
-  playPoint: {fileID: 315612004}
-  restartPoint: {fileID: 1128106547}
-  puzzleSpheres: []
-  puzzleLength: 5
-  puzzleSpeed: 1
-  currentlyDisplayingPattern: 1
-  playerWon: 0
 --- !u!1 &1326983075
 GameObject:
   m_ObjectHideFlags: 0
@@ -5577,7 +5507,7 @@ Prefab:
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1527759454}
+      objectReference: {fileID: 1527759452}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -5658,13 +5588,13 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: GameLogic, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1527759451}
+      objectReference: {fileID: 309097728}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].eventID
@@ -5904,7 +5834,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lightUpMaterial: {fileID: 2100000, guid: 03abd3809ff8b4cd18d0c359da767966, type: 2}
-  gameLogic: {fileID: 309097727}
 --- !u!114 &1527759453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5934,29 +5863,6 @@ MonoBehaviour:
   sourceMinDistance: 0
   hrtfEnabled: 1
   audioSource: {fileID: 0}
---- !u!114 &1527759454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1527759451}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 167ff67f7a8054e3f895549f6611b2b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1354304479}
-  eventSystem: {fileID: 480908257}
-  startUI: {fileID: 428735303}
-  restartUI: {fileID: 151839027}
-  startPoint: {fileID: 1578405884}
-  playPoint: {fileID: 315612004}
-  restartPoint: {fileID: 1128106547}
-  puzzleSpheres: []
-  puzzleLength: 5
-  puzzleSpeed: 1
-  currentlyDisplayingPattern: 1
-  playerWon: 0
 --- !u!1001 &1536138707
 Prefab:
   m_ObjectHideFlags: 0
@@ -6044,7 +5950,7 @@ Prefab:
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 491665682}
+      objectReference: {fileID: 1536138708}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -6125,13 +6031,13 @@ Prefab:
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: GameLogic, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 491665680}
+      objectReference: {fileID: 309097728}
     - target: {fileID: 114752313533970498, guid: 1f1d3383012ab4f1cb31dcc37907601a,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].eventID
@@ -6716,7 +6622,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lightUpMaterial: {fileID: 2100000, guid: 03abd3809ff8b4cd18d0c359da767966, type: 2}
-  gameLogic: {fileID: 309097727}
 --- !u!114 &1817645348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6746,29 +6651,6 @@ MonoBehaviour:
   sourceMinDistance: 0
   hrtfEnabled: 1
   audioSource: {fileID: 0}
---- !u!114 &1817645349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1817645346}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 167ff67f7a8054e3f895549f6611b2b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1354304479}
-  eventSystem: {fileID: 480908257}
-  startUI: {fileID: 428735303}
-  restartUI: {fileID: 151839027}
-  startPoint: {fileID: 1578405884}
-  playPoint: {fileID: 315612004}
-  restartPoint: {fileID: 1128106547}
-  puzzleSpheres: []
-  puzzleLength: 5
-  puzzleSpeed: 1
-  currentlyDisplayingPattern: 1
-  playerWon: 0
 --- !u!1 &1854579102
 GameObject:
   m_ObjectHideFlags: 0

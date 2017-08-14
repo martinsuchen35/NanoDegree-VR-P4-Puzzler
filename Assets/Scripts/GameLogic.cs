@@ -75,11 +75,14 @@ public class GameLogic : MonoBehaviour {
 
 
     public void startPuzzle()
-    { //Begin the puzzle sequence
+    {
+        Debug.Log("startPuzzle()");
+
+        //Begin the puzzle sequence
         //Generate a random number one through five, save it in an array.  Do this n times.
         //Step through the array for displaying the puzzle, and checking puzzle failure or success.
         startUI.SetActive(false);
-        eventSystem.SetActive(true);
+        eventSystem.SetActive(false);
         iTween.MoveTo(player, playPoint.transform.position, 5f);
         CancelInvoke("displayPattern");
         InvokeRepeating("displayPattern", 3, puzzleSpeed); //Start running through the displaypattern function
@@ -114,6 +117,7 @@ public class GameLogic : MonoBehaviour {
 
     public void generatePuzzleSequence()
     {
+        Debug.Log("generatePuzzleSequence()");
 
         int tempReference;
         for (int i = 0; i < puzzleLength; i++)
@@ -121,6 +125,8 @@ public class GameLogic : MonoBehaviour {
             tempReference = Random.Range(0, puzzleSpheres.Length); //Generate a random reference number for our puzzle spheres
             puzzleOrder[i] = tempReference; //Set the current index to our randomly generated reference number
         }
+
+        Debug.Log("puzzleOrder: " + puzzleOrder[0] + ", " + puzzleOrder[1] + ", " + puzzleOrder[2] + ", " + puzzleOrder[3] + ", " + puzzleOrder[4]);
     }
 
 
